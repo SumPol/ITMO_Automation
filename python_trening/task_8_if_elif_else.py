@@ -42,7 +42,7 @@ number(80)
 
 
 class BasePage:
-    def init_ (self, driver, base_url):
+    def __init__ (self, driver, base_url):
         self.driver = driver
         self.base_url = base_url # 'https://demoga.com/'
 
@@ -51,7 +51,7 @@ class BasePage:
 
 
 class Page:
-    def _init__ (self, url):
+    def __init__ (self, url):
         self.url = url
 
     def visit(self):
