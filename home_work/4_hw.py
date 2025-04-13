@@ -21,7 +21,7 @@ print('\n')
 
 
 class Math:
-    def __init__(self, a, b):
+    def __init__(self, a: float, b: float):
         self.a = a
         self.b = b
 
